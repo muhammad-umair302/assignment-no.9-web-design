@@ -1,0 +1,192 @@
+ @media (min-width: 650px) {
+
+    .navbar button{
+        background-color: transparent;
+        color: black;
+        border: none;
+        display: flex;
+        flex-basis: 80px;
+        
+
+
+    }
+    .navbar button{
+        font-family:'Times New Roman', Times, serif;
+   
+    }
+    .list button{
+        font-size:medium;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .button1{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        
+    }
+    .button2{
+        display: flex;
+        gap: 20px;
+        
+    }
+    .hero img{
+        height: 180px;
+    }
+    
+     .logo2 p{
+        margin-left: 200px;
+        margin-top: -172px;
+
+        
+
+    } 
+    .logo2 img{
+        width: 200px;
+        height: 130px;
+        margin-bottom: 60px;
+    }
+    .figure1 img{
+        width: 270px;
+        height: 300px;        
+    }
+    .figure1 figcaption{
+        width: 255px;
+    }
+    .wrap{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        
+    }
+    .box3 img{
+        width: 570px;
+    }
+    .box3 figcaption{
+        width: 555px;
+    }
+    .box4 img{
+
+        width: 570px;
+        height: 300px;
+    }
+    .box4 figcaption{
+        width: 555px;
+        
+    }
+    .collection img{
+        width: 270px;
+        height: 280px;
+
+
+    }
+    .justify{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+    }
+    h1{
+        margin-left: -290px;
+    }
+
+    .display{
+        margin-left: -100px;
+    }
+    .footer1 address{
+        margin-top: -60px;
+        margin-left: 140px;
+
+
+    }
+
+
+}
+
+@media(min-width:950px) {
+
+
+    .navbar{
+        height: 60px;
+    }
+    .flex img{
+        margin-top: 20px;
+    }
+    .flex strong{
+        margin-top: 20px;
+    }
+    .list button{
+        font-size:medium;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .hero img{
+        height: 270px;
+        width: 1000px;
+        margin: auto;
+        width: 100%;
+        
+        
+    }
+    .button1{
+        margin-right: 725px;
+        margin-top: -40px;
+        gap: 20px;
+        
+    }
+    .button2{
+        margin-left: 725px;
+        margin-top: -45px;
+        gap: 20px;
+
+    
+    }
+    
+    .hero img{
+        width: 1000px;
+    }
+    .hero{
+        background-color: var(--color7);
+        height: 275px;
+        
+    }
+    .logo2 h2{
+        margin-top: 30px;
+
+    }
+    .figure1{
+        margin-top: 50px;
+    }
+    .box3 img{
+        width: 270px;
+    }
+    .box3 figcaption{
+        width: 255px;
+    }
+    .box4 img{
+        width: 915px;
+        height: 400px;
+    }
+    .box4 figcaption{
+        width: 900px;
+    }
+    .collection img{
+        width: 290px;
+        height: 300px;
+    }
+    .collection figcaption{
+        width: 275px;
+    }
+    .display{
+        margin-left: -300px;
+    }
+    .footer1 address{
+        margin-left: 40px;
+    }
+    .logo2{
+        margin: auto;
+        width: 1000px;
+    }
+    
+
+
+} 

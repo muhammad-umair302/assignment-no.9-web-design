@@ -1,0 +1,330 @@
+*{
+
+
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+@font-face {
+    font-family: orbitron;
+    src: url(./fonts/Orbitron-VariableFont_wght.ttf);
+}
+:root {
+    --color1: #001219;
+    --color2: #005f73;
+    --color3: #3d9397;
+    --color4: #94d28d;
+    --color5: #e9d8a6;
+    --color6: #ee9800;
+    --color7: #ca6702;
+    --color8: #bb3e03;
+    --color9: #ae2012;
+    --color10: #9b2226;
+}
+
+strong{
+
+ font-family: orbitron;
+ margin-top: 9px;
+
+}
+
+.navbar img{
+    height: 20px;
+    width: 30px;
+    margin-top: 10px;
+    
+    
+}
+.list button:hover{
+    color: #ae2012;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar{
+    background-color: rgb(207, 201, 106);
+    height: 110px;
+    
+    
+}
+.list button{
+    background-color:var(--color10);
+    color: aliceblue;
+    width: 150px;
+    border-radius: 5px;
+    
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    column-gap: 10px;   
+    display: flex;
+    flex-wrap: wrap; 
+}
+.hero img{
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    width: 100%;
+    border-bottom: 5px solid var(--color7);
+
+}
+.logo2 p{
+    text-transform:capitalize;
+
+}
+.logo2 img{
+    height: 55px;
+    width: 83px;
+
+}
+.logo2{
+    margin-left: 10px;
+}
+
+.box1 img{
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    border: 5px solid var(--color8);
+    border-radius: 3px;
+
+}
+.box1 figcaption:hover{
+    color: var(--color8);
+}
+.box2 img{
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    border: 5px solid var(--color7);
+    border-radius: 3px;
+}
+.box2 figcaption:hover{
+    color:var(--color7);
+}
+.box3 img{
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    border: 5px solid var(--color4);
+    border-radius: 3px;
+    object-fit: cover;
+}
+.box3 figcaption:hover{
+    color: var(--color4);
+}
+.figure1{
+    background-color: var(--color2);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure1 h1{
+    color: white;
+    margin: 10px;
+
+}
+.box1 figcaption{
+    height: 30px;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.47);
+    width: 255px;
+    padding-top: 11px;
+    margin-left: 15px;
+    margin-top: -59px;
+    padding-left: 15px;
+
+    
+}
+.box2 figcaption{
+    height: 30px;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.47);
+    width: 255px;
+    padding-top: 11px;
+    margin-left: 15px;
+    margin-top: -59px;
+    padding-left: 15px;
+}
+.box3 figcaption{
+    height: 30px;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.47);
+    width: 255px;
+    padding-top: 11px;
+    margin-left: 15px;
+    margin-top: -59px;
+    padding-left: 15px;
+
+}
+.box4 img{
+    
+    width: 270px;
+    height:200 ;
+    margin: 15px;
+    border: 5px solid var(--color6);
+    border-radius: 3px;
+    
+}
+.box4 figcaption:hover{
+    color: var(--color6);
+}
+
+
+.box4 figcaption{
+    height: 30px;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.47);
+    width: 255px;
+    padding-top: 11px;
+    margin-left: 20px;
+    margin-top: -64px;
+    padding-left: 15px;
+    
+    
+}
+.figure2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.figure2 h1{
+    margin-right: 120px;
+    margin-bottom: 10px;
+}
+
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+.flex1 img{
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    border: 5px solid var(--color7);
+    border-radius: 3px;
+
+}
+.flex1 figcaption:hover{
+    color: var(--color7);
+
+}
+.flex2 img{
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    border: 5px solid var(--color2);
+    border-radius: 3px;
+
+}
+.flex2 figcaption:hover{
+    color: var(--color2);
+}
+.flex3 img{
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    border: 5px solid var(--color6);
+    border-radius: 3px;
+
+}
+.flex3 figcaption:hover{
+    color: var(--color6);
+}
+.flex4 img{
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    border: 5px solid var(--color9);
+    border-radius: 3px;
+
+}
+.flex4 figcaption:hover{
+    color: var(--color9);
+}
+.flex5 img{
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    border: 5px solid var(--color4);
+    border-radius: 3px;
+
+}
+.flex5 figcaption:hover{
+    color: var(--color4);
+}
+.flex6 img{
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    border: 5px solid var(--color3);
+    border-radius: 3px;
+
+}
+.flex6 figcaption:hover{
+    color: var(--color3);
+}
+.collection figcaption{
+    height: 30px;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.47);
+    width: 255px;
+    padding-top: 11px;
+    margin-left: 15px;
+    margin-top: -59px;
+    padding-left: 15px;
+}
+.collection h1{
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(210, 203, 117);
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+footer ul{
+    font-size: x-large;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    
+}
+footer address{
+    
+    margin-top: 10px;
+    font-family: system-ui;
+}
+footer h4{
+    
+    margin-bottom: 10px;
+    font-family: fangsong;
+    
+}
+.footer1{
+    margin: auto;
+    width: 300px;
+}
+
+
